@@ -1,3 +1,5 @@
+package main;
+
 public abstract class Vehicle {
     private String company;
     private String model;
