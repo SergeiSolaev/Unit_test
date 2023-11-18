@@ -5,8 +5,9 @@ public class Main {
         List list2 = new List(5);
         list1.createList();
         list2.createList();
-        ListCompare comparator = new ListCompare();
-        System.out.println(comparator.compareAvgSumLists(list1.avgSum(), list2.avgSum()));
+        ListComparator comparator = new ListComparator();
+        System.out.println(comparator.compareAvgSumLists(list1.avgSum(),
+                list2.avgSum()));
     }
 }
 

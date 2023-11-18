@@ -1,4 +1,4 @@
-public class ListCompare {
+public class ListComparator {
 
     public String compareAvgSumLists(int avgSumList1, int avgSumList2) {
         if (avgSumList1 > avgSumList2) {
@@ -13,3 +13,4 @@ public class ListCompare {
         }
     }
 }
+
